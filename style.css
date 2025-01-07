@@ -2,27 +2,179 @@
 body{
    background-color: black;
 }
-.dp{
-  height: 600px;
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.logo {
+  max-height: 50px;
+}
+.nav-link {
+  color: #198754 !important;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+.nav-link:hover {
+  color: #d9dee6 !important;
+}
+.icon {
+  display: flex;
+  gap: 10px;
+}
+.icon a {
+  color: #198754;
+  font-size: 1.2rem;
+  transition: transform 0.3s, color 0.3s;
+}
+.icon a:hover {
+  transform: scale(1.1);
+  color: #e4e6eb;
+}
+.right-padd a {
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.3s;
+}
+.right-padd a:hover {
+  background-color: #0d6efd;
+  transform: scale(1.05);
+}
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+  .icon {
+    justify-content: center;
+  }
+  .right-padd {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+/* hero section */
+h3 {
+  color: #198754;
+  font-style: italic;
+}
+
+.name {
+  color: #8a5f10;
+}
+
+.web_developer {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.verify {
+  width: 24px;
+  height: 24px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+/* Image Styles */
+.dp {
+  max-height: 600px;
   width: auto;
 }
 
-h3{
-      color:#198754;
-      font-style: italic;
-  }
-  h4{
-    color: antiquewhite;
-  }
-  .name{
-    color: #8a5f10;
-  }
-.container{
-    display: flex;
-  justify-content: center; /* Horizontally center */
-  align-items: center; /* Vertically center */
- 
+
+/* Responsive Typography */
+.top h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
 }
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  .top h1 {
+    font-size: 2.5rem;
+  }
+
+  .web_developer {
+    font-size: 1.5rem;
+  }
+
+  .dp {
+    max-height: 400px;
+  }
+
+  .down .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .top h1 {
+    font-size: 2rem;
+  }
+
+  .web_developer {
+    font-size: 1.2rem;
+  }
+
+  .dp {
+    max-height: 400px;
+  }
+
+  .down .btn {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .top h1 {
+    font-size: 1.8rem;
+  }
+
+  .text-animation h3 {
+    font-size: 1.2rem;
+  }
+
+  .web_developer {
+    font-size: 1rem;
+  }
+
+  .dp {
+    max-height: 400px;
+  }
+
+  .down .btn {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+}
+h4{
+color: #eadfdf;
+}
+.custom-text{
+color: #eadfdf;
+}
+
+/* About Section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .item{
   
@@ -32,35 +184,6 @@ h3{
     font-family:monospace;
     letter-spacing:1px;
 }
-.intro{
-    padding-top: 130px;
-    padding-left: 150px;
-
-    
-}
-.down {
-  padding-top:  100px;
-  
-}
-.cover-border{
-   /* border-top-left-radius: 50%;
-  border-top-right-radius: 50%; 
-  border-bottom-left-radius: 50%; */
-  /* background-color: #19875452; */
-/* background-image: url(/bubbles.png);
-background-position:top;
-  background-repeat: none;
-  background-size:cover;
-  height: 100%; */
-  margin-top: 50px;
-}
-.cover-border2{
-   border-top-left-radius: 50%;
-  border-top-right-radius: 50%; 
-  border-bottom-right-radius: 50%;
-  background-color: #198754;
-
-}
 .cover-image{
     filter:drop-shadow(5px 7px 5px rgb(58, 102, 87) );
     height: 100%;
@@ -68,6 +191,7 @@ background-position:top;
     border-radius: 50%;
     
 }
+
 .image{
     filter:drop-shadow(5px 7px 5px rgb(235, 147, 4) );
     
@@ -90,7 +214,7 @@ background-position:top;
     background-color: #131212f3;
 }
 
-.skill-bg1{
+.about-section{
   border-radius: 50% 0% 50% ;
     background-color:#191b1b;
     box-shadow:  rgb(7, 185, 126) 0px 3px 8px;
@@ -113,20 +237,7 @@ background-position:top;
     border-radius: 10px;
     box-shadow: 5px 5px 10px  #07b97e;
   }
-#navbarNav{
-  text-align: start;
-}
-.nav-link {
-  /* color: rgb(7, 185, 126); */
-  /* color: #CF0071; */
-  color: #198754;
-   font-size:large;
-  font-weight: 500;
-}
-.logo{
-  height:50px;
-  width: auto;
-}
+
 .text-color{
   color: rgb(160, 151, 151);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;

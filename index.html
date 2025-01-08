@@ -1,81 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    
+    <!-- Website Icon -->
+    <link rel="icon" type="image/png" href="website-icon.png">
+
     <!-- Bootstrap CSS -->
-    <link rel="Website Icon" type="jpg" href="website-icon.pn">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-<!-- Include Bootstrap CSS -->
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
-<!-- Include jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-
-<!-- Include Bootstrap JS -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-
-<!-- Bootstrap JS (with Popper.js) -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="Website Icon"  href="website-icon.png">
+    <!-- Google Fonts (Optional for custom fonts) -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- jQuery (Optional if you use jQuery for certain JS functionality) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybPpY2P8fgyf7bAbE/7LgDF6s7P0F2smol/aP22JQ/pTK5yQp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-cuQksXvE2GgLp5e8pYPBd33g2UpvLTjUb0ob9hEdk66Qgy1KNouI4e5fAYU6rLpl" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JS (Optional if you need Bootstrap JavaScript components like modals, dropdowns, etc.) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0j7f6DqFqOjeMxu69Y/qFzCqpeZIiWmU6GnLzVAGTO29Hk3v" crossorigin="anonymous"></script>
 </head>
 
 <body> 
-  <nav class="navbar navbar-expand-lg nav-bg fixed-top ">
-    <div class="container">
-      <a class="navbar-brand" href="#"><img src="portfolio-logo-02.png" alt="Logo" class="logo"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#profile">Profile</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#academic">Academic</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#certificate">Certificate</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#achievement">Achievement</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skill">Skill</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-          <li class="nav-item">
-            <div class="right-padd animate__animated animate__bounce animate__repeat-2">
-              <a target="_blank" href="https://github.com/Roman-oze" class="btn btn-md btn-outline-success bg-success">Hire Me <i class="fas fa-eye"></i></a>
-            </div>          
-          </li>
-          <li class="nav-item">
-            <div class=" animate__animated animate__bounce animate__repeat-2">
 
-              <div class="icon  p-2 ">
-                <a class="avatar-container" onclick="toggleMenu() " target="_blank" href="https://twitter.com/RomanIs77635801"><i class="fab fa-twitter avatar-image"></i></a>
-                <a class="avatar-container" onclick="toggleMenu() " target="_blank" href="https://www.facebook.com/islamfull.5"><i class="fab fa-facebook avatar-image"></i></a>
-                <a class="avatar-container" onclick="toggleMenu() " target="_blank" href="https://www.instagram.com/rumu303?igsh=emdtbzRmNWMweGRo&utm_source=qr"><i class="fab fa-instagram avatar-image"></i></a>
-                <a class="avatar-container" onclick="toggleMenu() " target="_blank" href="https://www.linkedin.com/in/rumu-islam-97239a151/"><i class="fab fa-linkedin avatar-image"></i></a>
-              </div>            </div>          
-          </li>
-        </ul>
-      </div>
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top nav-bg">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="portfolio-logo-02.png" alt="Logo" class="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto align-items-center">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#profile">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#academic">Academic</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#certificate">Certificate</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#achievement">Achievement</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skill">Skill</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        <div class=" animate__animated animate__bounce animate__repeat-2">
+          <a target="_blank" href="https://github.com/Roman-oze" class="btn btn-md btn-outline-success bg-success text-white">
+            Hire Me <i class="fas fa-eye"></i>
+          </a>
+        </div>
+
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
+
 <br>
 <br>
 <br>
@@ -162,7 +165,7 @@
 <br>
 <br>
 
-<section id="academic">
+<section id="">
   <div class="text-center mt-5">
     <div class="section-title text-center">
       <h1 class="text-center">Academic Skills</h1>
@@ -214,29 +217,10 @@
 <br>
 <br>
 <br>
-<!-- <div class="container">
-  <div class="row text-center">
-    <h2 class="smooth-text p-5">About Me <i class="fa-solid fa-person text-light"></i></h2>
- 
-  <div class="col-md-6 ">
-    <img src="diu-3.png" alt="" class="image">
-  </div>
-  <div class="col-md-6 d-flex justify-content-end  align-items-center">
-  <div class="item rounded-3">
-        <h5 class="text-color p-4">Welcome to my web developer portfolio! I'm Roman Oze, a skilled web developer dedicated to crafting exceptional digital experiences. With expertise in both front-end and back-end development, I create websites and web applications that surpass expectations. Explore my portfolio to see examples of my work, and let's discuss how I can help bring your digital projects to life.</h5>
-        <button class="download_button">CV <i class="fa-solid fa-arrow-down h-40"></i></button>
-        
-        
-      </div>
-     
-  </div>
-
-</div>
-</div> -->
 <section id="profile" class=" bg-gradient">
 <div class="container mt-5">
   <div class="row text-center about-section">
-    <h2 class="smooth-text p-3">About Me <i class="fa-solid fa-person"></i></h2>
+    <h2 class="smooth-text p-3 text-white">About Me <i class="fa-solid fa-person"></i></h2>
 
     <div class="col-md-6 p-1">
       <img src="diu-4.png" alt="Profile Picture" class="img-fluid">
@@ -290,13 +274,6 @@
     </div>
   </div>
 </div>
-
-
-<!-- PureCounter.js -->
-<script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
-<script>
-  new PureCounter();
-</script>
 
   <br>
   <br>
@@ -475,7 +452,7 @@
   <div class="row text-center g-4">
     <!-- ITM Website Card -->
     <div class="col-md-6">
-      <div class="card border rounded-3 p-4 shadow-lg box bg-dark text-light">
+      <div class="card border-success rounded-3 p-4 shadow-lg box  text-success">
         <div class="row align-items-center">
           <div class="col-sm-5">
             <img class="img-fluid rounded-3 shadow-sm" src="Screenshot_8-1-2025_13338_www.diu-itm.sglglobalsoft.com.jpeg" alt="ITM Website">
@@ -491,7 +468,7 @@
     </div>
     <!-- Restaurant Website Card -->
     <div class="col-md-6">
-      <div class="card border rounded-3 p-4 shadow-lg box bg-dark text-light">
+      <div class="card border-success rounded-3 p-4 shadow-lg box  text-light">
         <div class="row align-items-center">
           <div class="col-sm-5">
             <img class="img-fluid rounded-3 shadow-sm" src="rest-web.png" alt="Restaurant Website">
@@ -511,7 +488,7 @@
   <div class="row text-center g-4 mt-4">
     <!-- E-commerce Website Card -->
     <div class="col-md-6">
-      <div class="card border rounded-3 p-4 shadow-lg box bg-dark text-light">
+      <div class="card border-success rounded-3 p-4 shadow-lg box  text-light">
         <div class="row align-items-center">
           <div class="col-sm-5">
             <img class="img-fluid rounded-3 shadow-sm" src="e-commerce.png" alt="E-commerce Website">
@@ -527,7 +504,7 @@
     </div>
     <!-- Portfolio Card -->
     <div class="col-md-6">
-      <div class="card border rounded-3 p-4 shadow-lg box bg-dark text-light">
+      <div class="card border-success rounded-3 p-4 shadow-lg box  text-light">
         <div class="row align-items-center">
           <div class="col-sm-5">
             <img class="img-fluid rounded-3 shadow-sm" src="Gars.JPG" alt="Portfolio">
@@ -563,7 +540,7 @@
           <div class="certificate-img-container">
             <img src="vp.jpg" class="card-img-top certificate-img" alt="Vice President Certificate" onclick="openModal('vp.jpg')">
             <div class="card-body p-1">
-              <h5 class="card-title">Vice-President</h5>
+              <h5 class="card-title mt-2">Vice-President</h5>
               <p class="card-text">I'm VP of ITMClub, organizing activities and managing club members.</p>
               <p class="card-text"><small class="text-success">Issued on March 25, 2024</small></p>
             </div>
@@ -592,7 +569,7 @@
             <img src="cr-1.png" class="card-img-top certificate-img" alt="Positivity Certificate" onclick="openModal('cr-1.png')">
             <div class="card-body p-1">
               <h5 class="card-title mt-2">Positivity</h5>
-              <p class="card-text">I received this certificate for demonstrating responsibility from my university.</p>
+              <p class="card-text">Received for demonstrating responsibility at my university.</p>
               <p class="card-text"><small class="text-success">Issued on March 25, 2024</small></p>
             </div>
           </div>
@@ -638,97 +615,95 @@
     </div>
   </div>
 </div>
-
-
 <br>
 <br>
 <!-- reference -->
-
 <br>
 <br>
 <section id="achievement">
   <div class="text-center mt-5">
-    <div class="section-title text-center">
-      <h1 class="text-center">Achievement</h1>
+    <div class="section-title">
+      <h1>Achievement</h1>
     </div>
   </div>
-  <div class="container ">
+  <div class="container">
     <div class="row text-center">
-       
-    <div class="col-md-12 text-center ">
-          <div class=" rounded-3 p-3 shadow-lg border-900 box">
-            <p class="item1  p-2 text-transition"><i class="fa-regular fa-circle-check text-success"></i> Scholarship</p><br>
-            <p class="item1  p-2 text-transition"><i class="fa-regular fa-circle-check text-success"></i> Exchange Program</p><br>
-            <p class="item1  p-2 text-transition"><i class="fa-regular fa-circle-check text-success"></i> Internship</p><br>
-
-          </div>
+      <div class="col-md-12">
+        <div class="rounded-3 p-3 shadow-lg border-900 box">
+          <p class="item1 p-2 text-transition"><i class="fa-regular fa-circle-check text-success"></i> Scholarship</p>
+          <p class="item1 p-2 text-transition"><i class="fa-regular fa-circle-check text-success"></i> Exchange Program</p>
+          <p class="item1 p-2 text-transition"><i class="fa-regular fa-circle-check text-success"></i> Internship</p>
         </div>
-        <div class=" text-box">
-          <p class="smooth-text text-200">
-            As a web developer, I excel in creating user-friendly interfaces and efficient code. I specialize in crafting responsive designs, optimizing performance, and leveraging emerging technologies. With a dedication to innovation and ongoing learning, I deliver impactful solutions that enhance online experiences and propel business growth.
-          </p>        
-        </div> 
-           
-</div>
+      </div>
+      <div class="text-box">
+        <p class="smooth-text text-200">
+          As a web developer, I excel in creating user-friendly interfaces and efficient code. I specialize in crafting responsive designs, optimizing performance, and leveraging emerging technologies. With a dedication to innovation and ongoing learning, I deliver impactful solutions that enhance online experiences and propel business growth.
+        </p>
+      </div>
+    </div>
+  </div>
 </section>
-<br>
-<br>
 
-<br>
-<div class="container mt-5 d-flex flex-column justify-content-space-between  align-items-center">
-<div class="row p-3">
-  <div class="col-md-6 avatar-container" onclick="toggleMenu()">
-    <img src="Flutter-App.png" alt="Placeholder Image" class="smallphoto avatar-image">
+<br><br>
+
+<div class="container mt-5 d-flex flex-column justify-content-between align-items-center">
+  <!-- Flutter Certificate -->
+  <div class="row p-3">
+    <div class="col-md-6 avatar-container" onclick="toggleMenu()">
+      <img src="Flutter-App.png" alt="Flutter Course" class="smallphoto avatar-image">
+    </div>
+    <div class="col-md-6">
+      <div class="text-container border-success border-bottom">
+        <h5 class="card-title">Flutter</h5>
+        <p class="card-text">This is to certify that Roman Oze has successfully completed the course on...</p>
+        <p class="card-text"><small class="text-success">Issued on March 25, 2024</small></p>
+      </div>
+    </div>
   </div>
-  <div class="col-md-6 ">
-    <div class="text-container border-succeess border-bottom ">
-      <h5 class="card-title">Flutter</h5>
-      <p class="card-text">This is to certify that Roman Oze has successfully completed the course on...</p>
-      <p class="card-text"><small class="text-success">Issued on March 25, 2024</small></p>
+
+  <!-- Java Certificate -->
+  <div class="row p-3">
+    <div class="col-md-6 avatar-container" onclick="toggleMenu()">
+      <img src="java.png" alt="Java Course" class="smallphoto avatar-image">
+    </div>
+    <div class="col-md-6">
+      <div class="text-container border-success border-bottom">
+        <h5 class="card-title">Java</h5>
+        <p class="card-text">This is to certify that Roman Oze has successfully completed the course on...</p>
+        <p class="card-text"><small class="text-success">Issued on March 25, 2024</small></p>
+      </div>
+    </div>
   </div>
+
+  <!-- Firebase Certificate -->
+  <div class="row p-3">
+    <div class="col-md-6 avatar-container" onclick="toggleMenu()">
+      <img src="fire.png" alt="Firebase Course" class="smallphoto avatar-image">
+    </div>
+    <div class="col-md-6">
+      <div class="text-container border-success border-bottom">
+        <h5 class="card-title">Firebase</h5>
+        <p class="card-text">This is to certify that Roman Oze has successfully completed the course on...</p>
+        <p class="card-text"><small class="text-success">Issued on March 25, 2024</small></p>
+      </div>
+    </div>
   </div>
-</div> 
-<div class="row p-3">
-  <div class="col-md-6 avatar-container" onclick="toggleMenu()">
-    <img src="java.png" alt="Placeholder Image" class="smallphoto avatar-image">
-  </div>
-  <div class="col-md-6">
-    <div class="text-container border-succeess border-bottom">
-      <h5 class="card-title">Java</h5>
-      <p class="card-text">This is to certify that Roman Oze has successfully completed the course on...</p>
-      <p class="card-text"><small class="text-success">Issued on March 25, 2024</small></p>
-  </div>
-  </div>
-</div> 
-<div class="row p-3">
-  <div class="col-md-6 avatar-container" onclick="toggleMenu()">
-    <img src="fire.png" alt="Placeholder Image" class="smallphoto avatar-image">
-  </div>
-  <div class="col-md-6">
-    <div class="text-container border-succeess border-bottom ">
-      <h5 class="card-title">Firebase</h5>
-      <p class="card-text">This is to certify that Roman Oze has successfully completed the course on...</p>
-      <p class="card-text"><small class="text-success">Issued on March 25, 2024</small></p>
-  </div>
-  </div>
-</div> 
-<div class="container-fluid">
-<div class="row ">
-  <marquee class=" logos text-center mt-5 ">
-  <img src="powerbi.png" alt="">
-  <img src="bigml.png" alt="">
-  <img src="up.png" alt="">
-  <img src="pw1.png" alt="">
-  <img src="Excel.png" alt="">
-  <img src="database.png" alt="">
- </marquee>
- </div>
 </div>
- <br>
-<br>
-<br>
-<br>
-<br>
+
+<div class="container-fluid">
+  <div class="row">
+    <marquee class="logos text-center mt-5">
+      <img src="powerbi.png" alt="Power BI">
+      <img src="bigml.png" alt="BigML">
+      <img src="up.png" alt="Up">
+      <img src="pw1.png" alt="PW1">
+      <img src="Excel.png" alt="Excel">
+      <img src="database.png" alt="Database">
+    </marquee>
+  </div>
+</div>
+
+<br><br><br><br><br>
 
 <!-- experiences -->
 <section id="academic">
@@ -779,157 +754,162 @@
     </div>
   </div>
  </div>
-
 </div>
 </div>
 </section>
 <br>
 <br>
 <br>
-
-<section id="contact">
-  <div class="container-fluid">
-  <div class="row  mt-5">
-    <div class="section-title text-center">
-      <h1 class="text-center">Contact</h1>
-    </div>
-
-      <div class="col-md-8  p-5 ">
-        <span>Address</span>
-         <a href="#address" class=" contact-a"><p> <i class="fa-solid fa-location-dot  icon-item3 border p-3 rounded-circle "></i>  Tajmohol Road,Mohammadpur,Dhaka</p></a>
-        <span> Email</span>
-         <a href="#email" class=" contact-a"><p><i class="fa-solid fa-envelope  icon-item3 border p-3 rounded-circle"></i>   rumuislam303@gmail.com</p></a>
- 
-        <span> Phone number</span>
-         <a href="#phone" class=" contact-a"><p><i class="fa-solid fa-phone icon-item3 border p-3 rounded-circle"></i>   01759676488</p></a>
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- 
-         <div class="icon">
-            <i class="fa-brands fa-facebook icon-item3 p-3"></i>
-            <i class="fa-brands fa-instagram icon-item3 p-3"></i>        
-            <i class="fa-brands fa-twitter icon-item3 p-3"></i>        
-            <i class="fa-brands fa-linkedin icon-item3 p-3"></i>        
-        </div>
- 
+<footer class="footer">
+  <div class="container">
+      <div class="footer-top">
+          <div class="footer-logo">
+              <a href="#"><img src="defense-remove-BG.png" alt="own Image" class="img-fluid border-bottom"></a>
+          </div>
+          <div class="footer-social">
+              <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          </div>
       </div>
-      <div class="col-md-4 text-center  ">
-       <img  src="diu-4.png" class="img-fluid">
-      </div>
-    </div>
-    
-    </div>
-  
-   </section>
 
-<div class="text-center">
-  <img src="website-icon.png" alt="" height="20px" width="20px">
-  <a href="https://www.facebook.com/islamfull.5" class="text-white-50">copyright by design @RomanOze</a>
-</div>
+      <div class="footer-main">
+          <div class="footer-links">
+              <h4>Quick Links</h4>
+              <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About Me</a></li>
+                  <li><a href="#">Portfolio</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Contact</a></li>
+              </ul>
+          </div>
+
+          <div class="footer-about">
+              <h4>About Me</h4>
+              <p>I am a passionate web developer with experience in creating responsive and dynamic websites.</p>
+          </div>
+
+          <div class="footer-newsletter">
+              <h4>Newsletter</h4>
+              <form action="#">
+                  <input type="email" placeholder="Enter your email" required>
+                  <button type="submit" class=" btn-outline-success">Subscribe</button>
+              </form>
+          </div>
+      </div>
+
+      <div class="footer-bottom">
+          <p>&copy; 2025 Roman-oze. All rights reserved.</p>
+      </div>
+  </div>
+</footer>
+
+
+
+
 
 
   
 <script>
-  
-  //touch text
- var i = 0;
-    
-    var txt ="A passionate and detail-oriented Junior Web Developer with over three years of experience in creating dynamic, responsive, and user-friendly web applications. Proficient in HTML, CSS, JavaScript, PHP, and Laravel, with a strong foundation in MySQL database management and API integration. Known for delivering innovative solutions, debugging complex issues, and collaborating effectively in team environments. Seeking an opportunity to contribute technical expertise and grow in a challenging and fast-paced development role.";
-    
-    var speed = 10;
-    
-    function typeWriter() {
-      if (i < txt.length) {
-        document.getElementById("demo").innerHTML += txt.charAt(i);
-        i++;
-        setTimeout(typeWriter, speed);
-    
+  // Typing text effect
+  var i = 0;
+  var txt = "A passionate and detail-oriented Junior Web Developer with over three years of experience in creating dynamic, responsive, and user-friendly web applications. Proficient in HTML, CSS, JavaScript, PHP, and Laravel, with a strong foundation in MySQL database management and API integration. Known for delivering innovative solutions, debugging complex issues, and collaborating effectively in team environments. Seeking an opportunity to contribute technical expertise and grow in a challenging and fast-paced development role.";
+  var speed = 10;
+
+  function typeWriter() {
+    if (i < txt.length) {
+      document.getElementById("demo").innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+    }
+  }
+
+  // Non-stop typing with counters
+  document.addEventListener('DOMContentLoaded', function () {
+    var counters = document.querySelectorAll('.purecounter');
+    var speed = 10; // Speed of counting in milliseconds
+    var scrolled = false;
+
+    // Function to check if element is in viewport
+    function isInViewport(element) {
+      var rect = element.getBoundingClientRect();
+      return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+      );
+    }
+
+    // Function to update counter
+    function updateCounter(counter) {
+      var start = parseInt(counter.getAttribute('data-purecounter-start'));
+      var end = parseInt(counter.getAttribute('data-purecounter-end'));
+      var duration = parseInt(counter.getAttribute('data-purecounter-duration'));
+      var range = end - start;
+      var current = start;
+      var increment = end > start ? 1 : -1;
+      var stepTime = Math.abs(Math.floor(duration / range));
+
+      function count() {
+        counter.innerText = current;
+        if (current !== end) {
+          current += increment;
+          setTimeout(count, stepTime);
+        }
+      }
+
+      count();
+    }
+
+    // Function to handle scroll event
+    function handleScroll() {
+      if (!scrolled) {
+        counters.forEach(function (counter) {
+          if (isInViewport(counter)) {
+            updateCounter(counter);
+            scrolled = true;
+          }
+        });
       }
     }
 
-    //Non-stop typing 
-document.addEventListener('DOMContentLoaded', function () {
-            var counters = document.querySelectorAll('.purecounter');
-            var speed = 10; // The speed of counting in milliseconds
-            var scrolled =false;
+    // Add scroll event listener
+    window.addEventListener('scroll', handleScroll);
+  });
 
-            // Function to check if element is in viewport
-            function isInViewport(element) {
-                var rect = element.getBoundingClientRect();
-                return (
-                    rect.top >= 0 &&
-                    rect.left >= 0 &&
-                    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-                    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-                );
-            }
-
-            // Function to update counter
-            function updateCounter(counter) {
-                var start = parseInt(counter.getAttribute('data-purecounter-start'));
-                var end = parseInt(counter.getAttribute('data-purecounter-end'));
-                var duration = parseInt(counter.getAttribute('data-purecounter-duration'));
-                var range = end - start;
-                var current = start;
-                var increment = end > start ? 1 : -1;
-                var stepTime = Math.abs(Math.floor(duration / range));
-
-                function count() {
-                    counter.innerText = current;
-                    if (current !== end) {
-                        current += increment;
-                        setTimeout(count, stepTime);
-                    }
-                }
-
-                count();
-            }
-
-            // Function to handle scroll event
-            function handleScroll() {
-                if (!scrolled) {
-                    counters.forEach(function (counter) {
-                        if (isInViewport(counter)) {
-                            updateCounter(counter);
-                            scrolled = true;
-                        }
-                    });
-                }
-            }
-
-            // Add scroll event listener
-            window.addEventListener('scroll', handleScroll);
-        });
-  // JavaScript to start typing effect after page load
-  window.onload = function() {
-    // Get the text container
+  // Typing effect on page load
+  window.onload = function () {
     var textContainer = document.getElementById('typing-text');
-    // Get the text content
     var text = textContainer.innerHTML;
-    // Clear the text content
     textContainer.innerHTML = '';
-    // Define a function to simulate typing effect
+
     function typeWriter(text, i) {
       if (i < text.length) {
         textContainer.innerHTML += text.charAt(i);
         i++;
-        setTimeout(function() {
+        setTimeout(function () {
           typeWriter(text, i);
-        }, 100); // Adjust typing speed here (in milliseconds)
+        }, 100); // Typing speed in milliseconds
       }
     }
-    // Start the typing effect
+
     typeWriter(text, 0);
   };
 
-// Function to open the modal with the selected image
-function openModal(imageSrc) {
-  // Set the source of the image in the modal
-  document.getElementById('modalImage').src = imageSrc;
-
-  // Open the modal
-  $('#certificateModal').modal('show');
-}
-
+  // Function to open the modal with the selected image
+  function openModal(imageSrc) {
+    document.getElementById('modalImage').src = imageSrc;
+    $('#certificateModal').modal('show');
+  }
 </script>
+<!-- Remove one of these two lines -->
+
+<!-- or -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
 </body>
 </html>

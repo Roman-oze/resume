@@ -5,6 +5,30 @@ body{
    margin: 0;
    box-sizing: border-box;
 }
+.logo {
+  height: 50px;
+}
+
+.navbar .nav-link {
+  font-size: 1rem;
+  color: #fff; /* Ensure white text */
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #d4edda; /* Light green hover effect */
+}
+
+.icon .avatar-image {
+  font-size: 1.5rem;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.icon .avatar-image:hover {
+  color: #d4edda;
+}
+
 .nav-bg{
   background-color: #0f0f0fe0;
 }
@@ -294,7 +318,7 @@ justify-content: space-evenly;
 
 .iconic{
    font-size:xx-large;
-   color: #d6b707c4;
+   color: #d6b707f2;
    padding: 20px;
 }
 .download_button{
@@ -562,11 +586,7 @@ border-radius: 15px 14px;
   font-weight: 900;
   font-weight: bolder;
 }
-.contact-a{
-  text-decoration: none;
-  list-style: none;
-  color: rgb(7, 185, 126);
-}
+
 span{
   color: rgb(219, 223, 222);
   font-size: larger;
@@ -636,11 +656,10 @@ span{
   border-radius: 14px;
 }
 .logos img{
-  width: 300px;
   aspect-ratio: 3/2;
   object-fit: contain;
   padding: 10px;
-height: 90px;
+  height: 90px;
 }
 .logos{
   background-color: #161414f3;
@@ -828,3 +847,123 @@ height: 90px;
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
 }
 
+/* Contact */
+
+/* General Styles */
+
+/* Footer Styles */
+.footer {
+  background-color: #121213e3;
+  color: #ecf0f1;
+  padding: 10px 0;
+  font-size: 16px;
+}
+
+.footer .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.footer-logo img {
+  width: 150px;
+}
+
+.footer-social {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-social .social-icon {
+  color: #ecf0f1;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.footer-social .social-icon:hover {
+  color: #3498db;
+}
+
+/* Main Footer Sections */
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footer-links,
+.footer-about,
+.footer-newsletter {
+  width: 30%;
+}
+
+.footer-links h4,
+.footer-about h4,
+.footer-newsletter h4 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+  color: #ecf0f1;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+  color: #3498db;
+}
+
+.footer-newsletter input {
+  padding: 10px;
+  width: 80%;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.footer-newsletter button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer-newsletter button:hover {
+  background-color: #2980b9;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .footer-main {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer-links, .footer-about, .footer-newsletter {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+}

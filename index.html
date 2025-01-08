@@ -10,7 +10,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap JS (with Popper.js) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="Website Icon"  href="website-icon.png">
     <link rel="stylesheet" href="style.css">
 
@@ -19,7 +22,7 @@
 <body> 
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
     <div class="container">
-      <a class="navbar-brand" href="#"><img src="./port1.png" alt="Logo" class="logo"></a>
+      <a class="navbar-brand" href="#"><img src="portfolio-logo-02.png" alt="Logo" class="logo"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -94,12 +97,9 @@
   <br>
   <br>
   <div class="text-center">
-    <h3 class="text-center p-2 ">Expertise</h3>
-    <div class="divider-custom">
-      <div class="divider-custom-line"></div>
-      <div class="divider-custom-icon"><i class="fa-solid fa-star"></i></div>
-      <div class="divider-custom-line"></div>
-  </div>
+    <div class="section-title text-center">
+      <h1 class="text-center">Expertise</h1>
+    </div>
   <p class=" text-white-50">I specialize in designing responsive, user-friendly websites. Experienced in SEO and accessibility standard</p>
   </div>
   <div class="row  p-5 ">
@@ -147,12 +147,9 @@
 
 <section id="academic">
   <div class="text-center mt-5">
-    <h3 class="text-center">Academic Skills</h3>
-    <div class="divider-custom">
-      <div class="divider-custom-line"></div>
-      <div class="divider-custom-icon"><i class="fa-solid fa-star"></i></div>
-      <div class="divider-custom-line"></div>
-  </div>
+    <div class="section-title text-center">
+      <h1 class="text-center">Academic Skills</h1>
+    </div>
   </div>
 <div class="container mt-5">
   <div class="row mt-5">
@@ -177,7 +174,7 @@
     </div>
     <div class="card-content custom-text">
       <h4 class="p-2">App Development</h4>
-      <p class="smooth-text">Flutter and dart is used for developing android & iOS  </p>
+      <p class="smooth-text">Design and develop user-friendly mobile apps for Android and iOS</p>
     </div>
   </div>
  </div>
@@ -219,6 +216,7 @@
 
 </div>
 </div> -->
+<section id="certificate" class=" bg-dark">
 <div class="container mt-5">
   <div class="row text-center about-section">
     <h2 class="smooth-text p-3">About Me <i class="fa-solid fa-person"></i></h2>
@@ -236,61 +234,64 @@
 
         <br>
         <p id="demo">
-          <button class="touch btn bg-success btn-md btn-outline-success p-2">Download CV</button><br><br>
+          <a href="CV.pdf" class="touch btn bg-success btn-md btn-outline-white p-2" target="_blank">Download CV</a><br><br>
           <button onclick="typeWriter()" class="touch btn btn-md btn-outline-success">Touch me <i class="fa-solid fa-eye"></i></button>
         </p>  
       </div>    
     </div>
   </div>
 </div>
+</section>
+<br>
+<br>
+<br>
+<div class="container">
+  <div class="row mt-5 g-4 justify-content-center">
+    <div class="col-lg-3 col-md-6 text-center">
+      <div class="stat-card shadow-success rounded-3 p-5">
+        <span class="purecounter display-4 fw-bold text-success" data-purecounter-start="0" data-purecounter-end="29" data-purecounter-duration="1"></span>
+        <p class="mt-3 text-light fw-semibold">Websites</p>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 text-center">
+      <div class="stat-card shadow-success rounded-3 p-5">
+        <span class="purecounter display-4 fw-bold text-success" data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1"></span>
+        <p class="mt-3 text-light fw-semibold">Completed Projects</p>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 text-center">
+      <div class="stat-card shadow-success rounded-3 p-5">
+        <span class="purecounter display-4 fw-bold text-success" data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1"></span>
+        <p class="mt-3 text-light fw-semibold">Drafts</p>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 text-center">
+      <div class="stat-card shadow-success rounded-3 p-5">
+        <span class="purecounter display-4 fw-bold text-success" data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1"></span>
+        <p class="mt-3 text-light fw-semibold">Running Projects</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-<br>
-<br>
-<br>
-<div class="container ">
-  <div class="row mt-5  d-flex justify-content-space-between">
-    <div class="col-lg-3 col-6 text-center ">
-      <div class="border rounded-3  container_design text-center p-5 ">
-      <span data-purecounter-start="0" data-purecounter-end="29" data-purecounter-duration="0" class="purecounter"></span>
-      <p class="text-color">Website</p>
-    </div>
-    </div>
-    <div class="col-lg-3 col-6 text-center">
-      <div class="border rounded-3  container_design text-center p-5 ">
-      <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="0" class="purecounter"></span>
-      <p class="text-color">Compelete</p>
-    </div>
-    </div>
-  
-    <div class="col-lg-3 col-6 text-center ">
-    <div class="border rounded-3 container_design text-center p-5 ">
-      <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="0" class="purecounter"></span>
-      <p class="text-color">Draft</p>
-    </div>
-    </div>
-  
-    <div class="col-lg-3 col-6 text-center ">
-    <div class="border rounded-3 container_design text-center p-5 ">
-      <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="0" class="purecounter"></span>
-      <p class="text-color">Running</p>
-    </div>
-    </div>
-  </div>
-  </div>
+
+<!-- PureCounter.js -->
+<script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+<script>
+  new PureCounter();
+</script>
+
   <br>
   <br>
   <section id="academic">
     <div class="text-center mt-5">
-      <h3 class="text-center">Academic  <i class="fa-solid fa-user-graduate"></i></h3>
-      <div class="divider-custom">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon"><i class="fa-solid fa-star"></i></div>
-        <div class="divider-custom-line"></div>
-    </div>
+      <div class="section-title text-center">
+        <h1 class="text-center">Academic  <i class="fa-solid fa-user-graduate"></i></h1>
+      </div>
     </div>
   <div class="container mt-5">
-    <div class="row mt-5">
-   <div class="col-md-4 text-center">
+    <div class="row ">
+   <div class="col-md-4 text-center mt-2">
     <div class="card p-3">
       <i class="fa-solid fa-school iconic"></i>   
       <div class="card-content">
@@ -300,7 +301,7 @@
       </div>
     </div>
    </div>
-   <div class="col-md-4 text-center">
+   <div class="col-md-4 text-center mt-2">
     <div class="card p-3">
       <i class="fa-solid fa-building-columns iconic" ></i> 
       <div class="card-content">
@@ -310,7 +311,7 @@
       </div>
     </div>
    </div>
-   <div class="col-md-4 text-center">
+   <div class="col-md-4 text-center mt-2">
     <div class="card p-3">
       <i class="fa-solid fa-graduation-cap iconic"></i>    
       <div class="card-content">
@@ -330,18 +331,12 @@
  <section id="skill">
   <div class="container-fluid"> 
     <div class="text-center mt-5">
-      <h3 class="text-center">Skills Predicted</h3>
-      <div class="divider-custom">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon"><i class="fa-solid fa-star"></i></div>
-        <div class="divider-custom-line"></div>
-  
-    </div>
+      <div class="section-title text-center">
+        <h1 class="text-center">Skills Predicted</h1>
+      </div>
     <p class="text-center text-color">Gather practical experiences by each position</p>
   </div>
-  <br>
-  <br>
-  <br>
+
     <div class="row p-3">
         <div class="col-md-6 p-5">
           <div class=" text-center">
@@ -405,7 +400,7 @@
                 <h6 class="font-weight-bold text-color">55%</h6>
             </div>
             <div class="progress bg-dark">
-                <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 65%;"></div>
+                <div class="progress-bar bg-info" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 65%;"></div>
             </div>
         </div>
         <div class="skill mb-4 p-1">
@@ -414,7 +409,7 @@
                 <h6 class="font-weight-bold text-color">65%</h6>
             </div>
             <div class="progress bg-dark">
-                <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 65%;"></div>
+                <div class="progress-bar bg-info" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 65%;"></div>
             </div>
         </div>
         
@@ -424,7 +419,7 @@
                 <h6 class="font-weight-bold text-color">70%</h6>
             </div>
             <div class="progress bg-dark">
-                <div class="progress-bar bg-warning " role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 45%;"></div>
+                <div class="progress-bar bg-success " role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
             </div>
         </div>
         <div class="skill mb-4 p-1">
@@ -433,7 +428,7 @@
                 <h6 class="font-weight-bold text-color">65%</h6>
             </div>
             <div class="progress bg-dark">
-                <div class="progress-bar bg-warning " role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 45%;"></div>
+                <div class="progress-bar bg-success " role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
             </div>
         </div>
         <div class="skill mb-4 p-1">
@@ -454,135 +449,174 @@
 <br>
 <br>
 <br>
-  <div class="underline text-center">
-    <!-- <h1>My Project List  <img src="website-icon.png" alt="" class="smallimage"></h1> -->
-    <h1 class="text-white-50">Project List <i class="fa-regular fa-circle-check text-success"></i></h1>
-  </div>
-  <div class="container">
-    <div class="row text-center mt-5">
-      <div class="col-md-6 p-4">
-        <div class="border rounded-3 p-4 shadow-lg border-700 box">
-          <div class="row align-items-center">
-            <div class="col-sm"><img class="img-fluid rounded-3 shadow-sm" src="itm-web.png" alt="About"></div>
-            <div class="col">
-              <h4 class="text-200">Restaurent Website</h4>
-              <a class="btn btn-md btn-outline-success" href="https://prium.github.io/slick/v2.0.0/generator.html" target="_blank">Watch Live <i class="fa-solid fa-eye"></i></a>
-            </div>
+
+<div class="section-title text-center">
+    <h1 class="text-white">Project List </h1>
+</div>
+<div class="container py-5">
+  <!-- Row 1 -->
+  <div class="row text-center g-4">
+    <!-- ITM Website Card -->
+    <div class="col-md-6">
+      <div class="card border rounded-3 p-4 shadow-lg box bg-dark text-light">
+        <div class="row align-items-center">
+          <div class="col-sm-5">
+            <img class="img-fluid rounded-3 shadow-sm" src="Screenshot_8-1-2025_13338_www.diu-itm.sglglobalsoft.com.jpeg" alt="ITM Website">
+          </div>
+          <div class="col-sm-7">
+            <h4 class="text-success">ITM Website</h4>
+            <a class="btn btn-outline-success" href="https://www.diu-itm.sglglobalsoft.com/" target="_blank">
+              Watch Live <i class="fa-solid fa-eye"></i>
+            </a>
           </div>
         </div>
       </div>
-      <div class="col-md-6 p-4">
-        <div class="border rounded-3 p-4 shadow-lg border-900 box">
-          <div class="row align-items-center">
-            <div class="col-sm"><img class="img-fluid rounded-3 shadow-sm" src="rest-web.png" alt="About"></div>
-            <div class="col">
-              <h4 class="text-200">Academic Website</h4>
-              <a class="btn btn-md btn-outline-success " href="https://prium.github.io/slick/v2.0.0/generator.html" target="_blank">Watch Live <i class="fa-solid fa-eye"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      
     </div>
-    </div>
-    <br>
-    <br>
-    <div class="container">
-    <div class="row text-center mt-5">
-      <div class="col-md-6 p-4">
-        <div class="border rounded-3 p-4 shadow-lg border-700 box">
-          <div class="row align-items-center">
-            <div class="col-sm"><img class="img-fluid rounded-3 shadow-sm" src="e-commerce.png" alt="About"></div>
-            <div class="col">
-              <h4 class="text-180">Commerce Website</h4>
-              <a class="btn btn-md btn-outline-success" href="https://prium.github.io/slick/v2.0.0/generator.html" target="_blank">Watch Live <i class="fa-solid fa-eye"></i></a>
-            </div>
+    <!-- Restaurant Website Card -->
+    <div class="col-md-6">
+      <div class="card border rounded-3 p-4 shadow-lg box bg-dark text-light">
+        <div class="row align-items-center">
+          <div class="col-sm-5">
+            <img class="img-fluid rounded-3 shadow-sm" src="rest-web.png" alt="Restaurant Website">
+          </div>
+          <div class="col-sm-7">
+            <h4 class="text-success">Restaurant Website</h4>
+            <a class="btn btn-outline-success" href="https://prium.github.io/slick/v2.0.0/generator.html" target="_blank">
+              Watch Live <i class="fa-solid fa-eye"></i>
+            </a>
           </div>
         </div>
       </div>
-      <div class="col-md-6 p-4">
-        <div class="border rounded-3 p-4 shadow-lg border-900 box">
-          <div class="row align-items-center">
-            <div class="col-sm"><img class="img-fluid rounded-3 shadow-sm" src="portfolio.png" alt="About"></div>
-            <div class="col">
-              <h4 class="text-200">Portfolio</h4>
-              <a class="btn btn-md btn-outline-success " href="https://prium.github.io/slick/v2.0.0/generator.html" target="_blank">Watch Live <i class="fa-solid fa-eye"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      
     </div>
   </div>
-<br>
-<br>
 
-<br>
-<br>
-<section id="certificate">
-<div class="container">
-  <div class="row mt-5 ">
-    <div class="text-center">
-      <h3 class="text-center p-2 ">Certificates <i class="fa-solid fa-award iconic"></i></h3>
-      <div class="divider-custom">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon"><i class="fa-solid fa-star"></i></div>
-        <div class="divider-custom-line"></div>
-    </div>
-    <p class=" medium-text">I specialize in designing responsive, user-friendly websites. Experienced in SEO and accessibility standard</p>
-    </div>
-
-    <div class="col-md-3 p-4">
-      <div class="container mt-5">
-        <div class="card1 mx-auto">
-            <img src="vp.jpg" class="certificate1" alt="Placeholder Image">
-            <div class="card-content p-3">
-                <h5 class="card-title ">Vice-President</h5>
-                <p class="card-text">I'm VP of ITMClub organizing activites and managing club members</p>
-                <p class="card-text"><small class="text-success">Issued on March 25, 2024</small></p>
-              </div>
+  <!-- Row 2 -->
+  <div class="row text-center g-4 mt-4">
+    <!-- E-commerce Website Card -->
+    <div class="col-md-6">
+      <div class="card border rounded-3 p-4 shadow-lg box bg-dark text-light">
+        <div class="row align-items-center">
+          <div class="col-sm-5">
+            <img class="img-fluid rounded-3 shadow-sm" src="e-commerce.png" alt="E-commerce Website">
+          </div>
+          <div class="col-sm-7">
+            <h4 class="text-success">E-commerce Website</h4>
+            <a class="btn btn-outline-success" href="https://github.com/Roman-oze/E-Commerce" target="_blank">
+              Watch Live <i class="fa-solid fa-eye"></i>
+            </a>
+          </div>
         </div>
+      </div>
     </div>
-    </div>
-    <div class="col-md-3 p-4">
-      <div class="container mt-5">
-        <div class="card1 mx-auto" >
-          <img src="cr-3.png" class="img-fluid" alt="Placeholder Image">
-          <div class="card-content p-3">
-              <h5 class="card-title">Leadership</h5>
-              <p class="card-text">I had this skill to lead and maintaining anywhere situation</p>
-              <p class="card-text"><small class="text-success">Issued on March 25, 2024</small></p>
-            </div>
+    <!-- Portfolio Card -->
+    <div class="col-md-6">
+      <div class="card border rounded-3 p-4 shadow-lg box bg-dark text-light">
+        <div class="row align-items-center">
+          <div class="col-sm-5">
+            <img class="img-fluid rounded-3 shadow-sm" src="Gars.JPG" alt="Portfolio">
+          </div>
+          <div class="col-sm-7">
+            <h4 class="text-success">GARS</h4>
+            <a class="btn btn-outline-success" href="https://rcslbd.com/" target="_blank">
+              Watch Live <i class="fa-solid fa-eye"></i>
+            </a>
+          </div>
         </div>
-    </div>
-    </div>
-    <div class="col-md-3 p-4">
-      <div class="container mt-5">
-        <div class="card1 mx-auto">
-          <img src="cr-1.png" class="img-fluid" alt="Placeholder Image">
-          <div class="card-content p-3">
-              <h5 class="card-title">Positivity</h5>
-              <p class="card-text">I got this certificate for responsibility from my university</p>
-              <p class="card-text"><small class="text-success">Issued on March 25, 2024</small></p>
-            </div>
-        </div>
-    </div>
-    </div>
-    <div class="col-md-3 p-4">
-      <div class="container mt-5">
-        <div class="card1 mx-auto">
-          <img src="cr-2.jpg" alt="Placeholder Image" class="img-fluid">
-          <div class="card-content p-3">
-              <h5 class="card-title">Chinese Course</h5>
-              <p class="card-text">I completed 6 month chinese language course from china </p>
-              <p class="card-text"><small class="text-success">Issued on March 25, 2024</small></p>
-            </div>
-        </div>
-    </div>
+      </div>
     </div>
   </div>
 </div>
+<br>
+<br>
+<section id="certificate" class="py-5 bg-dark">
+  <div class="container">
+    <div class="row text-center mb-5">
+      <div class="col-12">
+        <div class="section-title text-center">
+          <h1 class="text-center">Certificates</h1>
+        </div>
+        <p class="lead text-light">I specialize in designing responsive, user-friendly websites, with expertise in SEO and accessibility standards.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- Certificate 1 -->
+      <div class="col-md-3 col-sm-6 mb-4">
+        <div class="card certificate-card">
+          <div class="certificate-img-container">
+            <img src="vp.jpg" class="card-img-top certificate-img" alt="Vice President Certificate" data-toggle="modal" data-target="#certificateModal" onclick="openModal('vp.jpg')">
+            <div class="overlay">
+              <h5 class="card-title mt-2">Vice-President</h5>
+              <p class="card-text">I'm VP of ITMClub, organizing activities and managing club members.</p>
+              <p class="card-text"><small class="text-success">Issued on March 25, 2024</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificate 2 -->
+      <div class="col-md-3 col-sm-6 mb-4">
+        <div class="card certificate-card">
+          <div class="certificate-img-container">
+            <img src="cr-3.png" class="card-img-top certificate-img" alt="Leadership Certificate" data-toggle="modal" data-target="#certificateModal" onclick="openModal('cr-3.png')">
+            <div class="overlay">
+              <h5 class="card-title mt-2">Leadership</h5>
+              <p class="card-text">I have honed my skills to lead and maintain any situation with precision.</p>
+              <p class="card-text"><small class="text-success">Issued on March 25, 2024</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificate 3 -->
+      <div class="col-md-3 col-sm-6 mb-4">
+        <div class="card certificate-card">
+          <div class="certificate-img-container">
+            <img src="cr-1.png" class="card-img-top certificate-img" alt="Positivity Certificate" data-toggle="modal" data-target="#certificateModal" onclick="openModal('cr-1.png')">
+            <div class="overlay">
+              <h5 class="card-title mt-2">Positivity</h5>
+              <p class="card-text">I received this certificate for demonstrating responsibility from my university.</p>
+              <p class="card-text"><small class="text-success">Issued on March 25, 2024</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificate 4 -->
+      <div class="col-md-3 col-sm-6 mb-4">
+        <div class="card certificate-card">
+          <div class="certificate-img-container">
+            <img src="cr-2.jpg" class="card-img-top certificate-img" alt="Chinese Course Certificate" data-toggle="modal" data-target="#certificateModal" onclick="openModal('cr-2.jpg')">
+            <div class="overlay">
+              <h5 class="card-title mt-2">Chinese Course</h5>
+              <p class="card-text">I completed a 6-month Chinese language course from China.</p>
+              <p class="card-text"><small class="text-success">Issued on March 25, 2024</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
+
+<!-- Modal for Image Viewing -->
+<div class="modal fade" id="certificateModal" tabindex="-1" role="dialog" aria-labelledby="certificateModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="certificateModalLabel">Certificate Image</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="" id="modalImage" class="img-fluid" alt="Certificate Image">
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <br>
 <br>
 <!-- reference -->
@@ -591,12 +625,9 @@
 <br>
 <section id="achievement">
   <div class="text-center mt-5">
-    <h3 class="text-center">Achievement</h3>
-    <div class="divider-custom">
-      <div class="divider-custom-line"></div>
-      <div class="divider-custom-icon"><i class="fa-solid fa-star"></i></div>
-      <div class="divider-custom-line"></div>
-  </div>
+    <div class="section-title text-center">
+      <h1 class="text-center">Achievement</h1>
+    </div>
   </div>
   <div class="container ">
     <div class="row text-center">
@@ -626,7 +657,7 @@
   <div class="col-md-6">
     <img src="Flutter-App.png" alt="Placeholder Image" class="smallphoto">
   </div>
-  <div class="col-md-6">
+  <div class="col-md-6 ">
     <div class="text-container border-succeess border-bottom ">
       <h5 class="card-title">Flutter</h5>
       <p class="card-text">This is to certify that Roman Oze has successfully completed the course on...</p>
@@ -658,6 +689,7 @@
   </div>
   </div>
 </div> 
+<div class="container-fluid">
 <div class="row ">
   <marquee class=" logos text-center mt-5 ">
   <img src="powerbi.png" alt="">
@@ -668,6 +700,7 @@
   <img src="database.png" alt="">
  </marquee>
  </div>
+</div>
  <br>
 <br>
 <br>
@@ -677,20 +710,17 @@
 <!-- experiences -->
 <section id="academic">
   <div class="text-center mt-5">
-    <h3 class="text-center p-1">Experience</h3>
-    <div class="divider-custom">
-      <div class="divider-custom-line"></div>
-      <div class="divider-custom-icon"><i class="fa-solid fa-star"></i></div>
-      <div class="divider-custom-line"></div>
+    <div class="section-title text-center">
+      <h1 class="text-center">Experience</h1>
+    </div>
 
-  </div>
   <p class="text-center text-light ">Gather practical experiences by each position</p>
 
   </div>
 <div class="container-fluid mt-5">
   <div class="row mt-5 d-flex justify-content-center ">
     
- <div class="col-md-3 text-center  ">
+ <div class="col-md-3 text-center  p-2">
   <div class="card p-2">
     <i class="fa-solid fa-book-open-reader iconic"></i>    
     <div class="card-content">
@@ -699,7 +729,7 @@
     </div>
   </div>
  </div>
- <div class="col-md-3 text-center ">
+ <div class="col-md-3 text-center p-2">
   <div class="card p-2">
     <i class="fa-solid fa-lightbulb iconic"></i>    
     <div class="card-content">
@@ -708,7 +738,7 @@
     </div>
   </div>
  </div>
- <div class="col-md-3 text-center ">
+ <div class="col-md-3 text-center p-2">
   <div class="card p-2">
     <i class="fa-solid fa-circle-info iconic"></i>    
     <div class="card-content">
@@ -717,7 +747,7 @@
     </div>
   </div>
  </div>
- <div class="col-md-3 text-center  ">
+ <div class="col-md-3 text-center  p-2">
   <div class="card p-2">
     <i class="fa-solid fa-person-rays iconic"></i>    
     <div class="card-content">
@@ -737,13 +767,10 @@
 <section id="contact">
   <div class="container-fluid">
   <div class="row  mt-5">
-    <h3 class="text-center p-1">Contact</h3>
-    <div class="divider-custom">
-      <div class="divider-custom-line"></div>
-      <div class="divider-custom-icon"><i class="fa-solid fa-star"></i></div>
-      <div class="divider-custom-line"></div>
+    <div class="section-title text-center">
+      <h1 class="text-center">Contact</h1>
+    </div>
 
-  </div>
       <div class="col-md-8  p-5 ">
         <span>Address</span>
          <a href="#address" class=" contact-a"><p> <i class="fa-solid fa-location-dot  icon-item3 border p-3 rounded-circle "></i>  Tajmohol Road,Mohammadpur,Dhaka</p></a>
@@ -783,7 +810,7 @@
   //touch text
  var i = 0;
     
-    var txt ="I am a responsible individual who values connectivity for productivity. I believe in fostering confidence in others as a source of strength. Born in Brahmanbaria, raised and educated in Dhaka, I completed my HSC at Dhanmondi Ideal College. I pursued undergraduate studies in China and am now a student at Daffodil International University, majoring in ITM.This is my last semester. Thank you.";
+    var txt ="A passionate and detail-oriented Junior Web Developer with over three years of experience in creating dynamic, responsive, and user-friendly web applications. Proficient in HTML, CSS, JavaScript, PHP, and Laravel, with a strong foundation in MySQL database management and API integration. Known for delivering innovative solutions, debugging complex issues, and collaborating effectively in team environments. Seeking an opportunity to contribute technical expertise and grow in a challenging and fast-paced development role.";
     
     var speed = 10;
     

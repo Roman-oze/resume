@@ -5,10 +5,13 @@ body{
    margin: 0;
    box-sizing: border-box;
 }
-.logo {
+/* .logo {
   height: 50px;
+} */
+.logo {
+  max-height: 50px;
+  animation: bounce 2s infinite;
 }
-
 .navbar .nav-link {
   font-size: 1rem;
   color: #fff; /* Ensure white text */
@@ -35,9 +38,7 @@ body{
 .navbar {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-.logo {
-  max-height: 50px;
-}
+
 .nav-link {
   color: #198754 !important;
   font-size: 1rem;
@@ -110,6 +111,10 @@ h3 {
 .dp {
   max-height: 600px;
   width: auto;
+}
+.cover-photo{
+  animation: bounce s infinite;
+
 }
 
 
